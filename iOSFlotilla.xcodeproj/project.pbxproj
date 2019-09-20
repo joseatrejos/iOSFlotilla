@@ -14,6 +14,8 @@
 		3DD300F523356A95006F8E3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD300F323356A95006F8E3B /* LaunchScreen.storyboard */; };
 		3DD3010023356A95006F8E3B /* iOSFlotillaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD300FF23356A95006F8E3B /* iOSFlotillaTests.swift */; };
 		3DD3010B23356A95006F8E3B /* iOSFlotillaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD3010A23356A95006F8E3B /* iOSFlotillaUITests.swift */; };
+		3DD3011E23356BBA006F8E3B /* Vehiculo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD3011D23356BBA006F8E3B /* Vehiculo.swift */; };
+		3DD3012023356BCE006F8E3B /* celdaFlotillaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD3011F23356BCE006F8E3B /* celdaFlotillaController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3DD3010623356A95006F8E3B /* iOSFlotillaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSFlotillaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD3010A23356A95006F8E3B /* iOSFlotillaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSFlotillaUITests.swift; sourceTree = "<group>"; };
 		3DD3010C23356A95006F8E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD3011D23356BBA006F8E3B /* Vehiculo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehiculo.swift; sourceTree = "<group>"; };
+		3DD3011F23356BCE006F8E3B /* celdaFlotillaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celdaFlotillaController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,11 @@
 		3DD300E923356A93006F8E3B /* iOSFlotilla */ = {
 			isa = PBXGroup;
 			children = (
-				3DD300EA23356A93006F8E3B /* AppDelegate.swift */,
-				3DD300EC23356A93006F8E3B /* ViewController.swift */,
-				3DD300EE23356A93006F8E3B /* Main.storyboard */,
-				3DD300F123356A95006F8E3B /* Assets.xcassets */,
-				3DD300F323356A95006F8E3B /* LaunchScreen.storyboard */,
-				3DD300F623356A95006F8E3B /* Info.plist */,
+				3DD3011B23356B21006F8E3B /* App */,
+				3DD3011A23356ABD006F8E3B /* View Controllers */,
+				3DD3011923356AB4006F8E3B /* Resources */,
+				3DD3011823356AA7006F8E3B /* Storyboards */,
+				3DD3011C23356B37006F8E3B /* Models */,
 			);
 			path = iOSFlotilla;
 			sourceTree = "<group>";
@@ -123,6 +126,49 @@
 				3DD3010C23356A95006F8E3B /* Info.plist */,
 			);
 			path = iOSFlotillaUITests;
+			sourceTree = "<group>";
+		};
+		3DD3011823356AA7006F8E3B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3DD300EE23356A93006F8E3B /* Main.storyboard */,
+				3DD300F323356A95006F8E3B /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		3DD3011923356AB4006F8E3B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3DD300F123356A95006F8E3B /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3DD3011A23356ABD006F8E3B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3DD300EC23356A93006F8E3B /* ViewController.swift */,
+				3DD3011F23356BCE006F8E3B /* celdaFlotillaController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3DD3011B23356B21006F8E3B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3DD300EA23356A93006F8E3B /* AppDelegate.swift */,
+				3DD300F623356A95006F8E3B /* Info.plist */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		3DD3011C23356B37006F8E3B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3DD3011D23356BBA006F8E3B /* Vehiculo.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +302,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DD3012023356BCE006F8E3B /* celdaFlotillaController.swift in Sources */,
 				3DD300ED23356A93006F8E3B /* ViewController.swift in Sources */,
 				3DD300EB23356A93006F8E3B /* AppDelegate.swift in Sources */,
+				3DD3011E23356BBA006F8E3B /* Vehiculo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
