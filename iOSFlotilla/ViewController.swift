@@ -17,7 +17,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         flotilla.append(Vehiculo(placa: "ABC123", modelo: "Atos", marca: "Hyundai", año: 2017))
         flotilla.append(Vehiculo(placa: "XYZ123", modelo: "Dodge", marca: "Dodge", año: 2005))
         flotilla.append(Vehiculo(placa: "DEF123", modelo: "Accord", marca: "Honda", año: 2008))
-        
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -43,4 +42,3 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return 120
     }
 }
-
